@@ -25,7 +25,7 @@
   }
 </script>
 
-<button on:click={openTable}>Display Table</button>
+<button on:click={openTable}>TOUCH ME</button>
 
 <main>
   {#if tableVisible}
