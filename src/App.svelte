@@ -24,6 +24,7 @@
     tableVisible = true;
   }
 </script>
+<button on:click={openTable}>Display Table</button>
 
 <main>
   {#if tableVisible}
