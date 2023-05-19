@@ -34,9 +34,12 @@
       pagination={{ enabled: true, limit: 38 }}
       data={jsonData.map(item => ({
         title: item.title,
-        reference: item.reference,
+        jobType: item.jobType,
         status: item.status,
+        experience: item.experience,
         industry: item.industry,
+        countryCode: item.countryCode,
+        countryName: item.countryName
       }))} />
   {/if}
 </main>
