@@ -35,7 +35,8 @@
       data={jsonData.map(item => ({
         title: item.title,
         reference: item.reference,
-        status: item.status
+        status: item.status,
+        industry: item.industry,
       }))} />
   {/if}
 </main>
