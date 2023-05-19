@@ -25,8 +25,6 @@
   }
 </script>
 
-<button on:click={openTable}>TOUCH ME</button>
-
 <main>
   {#if tableVisible}
     <Grid
