@@ -38,8 +38,7 @@
         status: item.status,
         experience: item.experience,
         industry: item.industry,
-        countryCode: item.countryCode,
-        countryName: item.countryName
+       
       }))} />
   {/if}
 </main>
